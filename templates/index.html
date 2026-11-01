@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EV Market Insights</title>
+
+    <script type="module"
+        src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js">
+    </script>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+        }
+
+        header {
+            background: #14213d;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .dashboard {
+            padding: 20px;
+        }
+
+        tableau-viz {
+            width: 100%;
+            height: 850px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Electric Vehicle Market Insights</h1>
+        <p>Explore Electric Vehicle Performance and Technology</p>
+    </header>
+
+    <div class="dashboard">
+        <tableau-viz
+            src="https://public.tableau.com/views/EV_Market_Insights_17935318474090/EVMarketInsightsDashboard_"
+            toolbar="bottom"
+            hide-tabs>
+        </tableau-viz>
+    </div>
+
+</body>
+</html>

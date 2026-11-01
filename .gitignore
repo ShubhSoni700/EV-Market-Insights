@@ -1,0 +1,26 @@
+
+# Python virtual environment
+venv/
+.venv/
+
+# Private database credentials
+.env
+.env.*
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Temporary files
+*.log
+.DS_Store
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# IDE settings
+.vscode/
+
+# Temporary Tableau files
+*.twbr
+~*
